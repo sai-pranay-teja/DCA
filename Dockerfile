@@ -7,14 +7,9 @@ FROM ubuntu
 # ADD index.nginx-debian.html /
 # ADD https://getsamplefiles.com/download/tar/sample-1.tar /
 RUN mkdir /sample1
-WORKDIR /sample1
-RUN touch file1.txt
 RUN mkdir /sample2
+RUN mkdir /sample3
+WORKDIR /sample1
 WORKDIR /sample2
-RUN touch file2.txt
 WORKDIR /sample3
-RUN touch file3.txt
-
-
-
 # EXPOSE 80
