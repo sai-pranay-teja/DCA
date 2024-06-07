@@ -14,6 +14,6 @@ ENV NAME Pranay
 # WORKDIR /sample2
 # WORKDIR /sample3
 # EXPOSE 80
-
+RUN apt-get install inetutils-ping -y
 RUN touch ${NAME}.txt
 HEALTHCHECK --interval=5s CMD ping www.google.com
