@@ -17,4 +17,5 @@ RUN apt-get update -y
 RUN apt-get install inetutils-ping -y
 RUN touch ${NAME}.txt
 # HEALTHCHECK --interval=5s CMD ping -c 1 172.17.0.2
-HEALTHCHECK --interval=5s CMD ping -c 1 www.google.com
+# HEALTHCHECK --interval=5s CMD ping -c 1 www.google.com
+HEALTHCHECK --interval=5s CMD ls
