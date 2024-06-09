@@ -21,3 +21,5 @@ RUN apt-get update -y
 # HEALTHCHECK --interval=5s CMD ls
 RUN fallocate -l 100M file1.txt
 RUN fallocate -l 100M file2.txt
+RUN rm file1.txt
+RUN rm file2.txt
