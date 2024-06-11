@@ -19,5 +19,5 @@ RUN apt-get update -y
 # HEALTHCHECK --interval=5s CMD ping -c 1 172.17.0.2
 # HEALTHCHECK --interval=5s CMD ping -c 1 www.google.com
 # HEALTHCHECK --interval=5s CMD ls
-RUN fallocate -l 100M file1.txt && rm file1.txt
-RUN fallocate -l 100M file2.txt && rm file2.txt
+# RUN fallocate -l 100M file1.txt && rm file1.txt
+# RUN fallocate -l 100M file2.txt && rm file2.txt
