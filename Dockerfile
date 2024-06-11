@@ -14,7 +14,7 @@ COPY index.nginx-debian.html /var/www/html/
 # WORKDIR /sample2
 # WORKDIR /sample3
 # EXPOSE 80
-# RUN apt-get install inetutils-ping -y
+RUN apt-get install inetutils-ping -y
 # RUN touch ${NAME}.txt
 # HEALTHCHECK --interval=5s CMD ping -c 1 172.17.0.2
 # HEALTHCHECK --interval=5s CMD ping -c 1 www.google.com
