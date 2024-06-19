@@ -1,0 +1,6 @@
+version: '3'
+services:
+  web-server-nginx:
+    image: nginx
+  db-server-mysql:
+    image: mysql
