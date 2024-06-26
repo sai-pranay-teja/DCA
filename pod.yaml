@@ -1,7 +1,7 @@
 apiVersion: apps/v1
-kind: ReplicaSet
+kind: Deployment
 metadata:
-  name: nginx01
+  name: nginx01-deployment
 spec:
   replicas: 3
   selector:
