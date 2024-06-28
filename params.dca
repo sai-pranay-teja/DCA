@@ -1,0 +1,3 @@
+app.env=dev
+app.memory=1028MB
+app.tool=docker
