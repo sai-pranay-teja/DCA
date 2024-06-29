@@ -1,7 +1,7 @@
   kind: Endpoints
   apiVersion: v1
   metadata:
-    name: service01
+    name: service02
   subsets: 
     - addresses:
         - ip: 10.244.0.60
