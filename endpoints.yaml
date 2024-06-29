@@ -1,0 +1,10 @@
+  kind: "Endpoints"
+  apiVersion: "v1"
+  metadata:
+    name: "service01" 
+  subsets: 
+    - addresses:
+        - ip: "10.10.50.53, 10.244.0.61"
+      ports:
+        - port: 80 
+          name: "nginx"
