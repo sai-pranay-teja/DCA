@@ -12,5 +12,5 @@ spec:
         name: daemon-set-1
     spec:
       containers:
-      - name: kplabs-pods
+      - name: nginx01
         image: nginx
