@@ -6,7 +6,7 @@ metadata:
 spec:
   podSelector:
     matchLabels:
-      run: ubuntu02
+      status: bad-pod
   policyTypes:
   - Ingress
-  - Egress
+  # - Egress
