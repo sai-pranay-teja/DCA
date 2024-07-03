@@ -9,3 +9,4 @@ spec:
       run: nginx02
   policyTypes:
   - Ingress
+  - Egress
