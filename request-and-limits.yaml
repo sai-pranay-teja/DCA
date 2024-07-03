@@ -13,3 +13,4 @@ spec:
       limits:
         memory: "1280Mi"
         cpu: "1"
+        
