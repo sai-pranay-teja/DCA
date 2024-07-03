@@ -6,7 +6,7 @@ metadata:
 spec:
   podSelector:
     matchLabels:
-      run: nginx02
+      run: ubuntu02
   policyTypes:
   - Ingress
   - Egress
