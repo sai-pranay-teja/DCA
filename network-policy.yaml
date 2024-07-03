@@ -6,6 +6,6 @@ metadata:
 spec:
   podSelector:
     matchLabels:
-      status: bad-pod
+      run: nginx02
   policyTypes:
   - Ingress
