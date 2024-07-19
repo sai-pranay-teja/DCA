@@ -1,9 +1,12 @@
 FROM ubuntu
 # ENV NAME Pranay
-RUN apt-get update -y &&\
-#     apt-get upgrade -y &&\
-    apt-get install nginx -y
-COPY index.nginx-debian.html /var/www/html/
+ RUN apt-get update -y 
+# #     apt-get upgrade -y &&\
+#     apt-get install nginx -y
+# COPY index.nginx-debian.html /var/www/html/
+RUN mkdir /new01
+RUN echo "This is new volume" > /new01/volume.txt
+VOLUME [ "/new01" ]
 # CMD nginx -g 'daemon off;'
 # ADD index.nginx-debian.html /
 # ADD https://getsamplefiles.com/download/tar/sample-1.tar /
@@ -13,8 +16,8 @@ COPY index.nginx-debian.html /var/www/html/
 # WORKDIR /sample1
 # WORKDIR /sample2
 # WORKDIR /sample3
-EXPOSE 80
-RUN apt-get install inetutils-ping -y
+# EXPOSE 80
+# RUN apt-get install inetutils-ping -y
 # RUN touch ${NAME}.txt
 # HEALTHCHECK --interval=5s CMD ping -c 1 172.17.0.2
 # HEALTHCHECK --interval=5s CMD ping -c 1 www.google.com
