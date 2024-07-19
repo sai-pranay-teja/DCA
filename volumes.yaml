@@ -14,4 +14,4 @@ spec:
     - name: volume01
       hostPath:
         path: /home/pranay/volumes_tutorial
-        type: Directory
+        type: DirectoryOrCreate
