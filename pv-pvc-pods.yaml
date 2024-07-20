@@ -6,7 +6,7 @@ spec:
   volumes:
     - name: volume01
       persistentVolumeClaim:
-        claimName: pvc01
+        claimName: pvc02
   containers:
     - name: ubunut01
       image: ubuntu
