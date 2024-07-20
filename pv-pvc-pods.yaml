@@ -12,5 +12,5 @@ spec:
       image: ubuntu
       tty: true
       volumeMounts:
-        - mountPath: /etc
+        - mountPath: /k8s-tutorial
           name: volume01
