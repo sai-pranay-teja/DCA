@@ -3,7 +3,7 @@ kind: PersistentVolumeClaim
 metadata:
   name: pvc02
 spec:
-  storageClassName: standard
+  storageClassName: k8s-sc
   accessModes:
     - ReadWriteOnce
   resources:
