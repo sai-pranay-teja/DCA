@@ -10,6 +10,7 @@ spec:
   containers:
     - name: ubunut01
       image: ubuntu
+      tty: true
       volumeMounts:
         - mountPath: /etc
           name: volume01
