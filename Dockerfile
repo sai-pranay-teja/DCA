@@ -16,8 +16,8 @@ FROM ubuntu
 
 
 RUN mkdir /a
-RUN mkdir b
-RUN mkdir c
+# RUN mkdir b
+# RUN mkdir c
 WORKDIR /a
 WORKDIR b
 WORKDIR c
