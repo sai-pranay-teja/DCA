@@ -12,7 +12,7 @@ FROM ubuntu
 RUN apt install curl -y
 ADD https://getsamplefiles.com/download/tar/sample-1.tar /
 
-RUN curl -O /sample-2.tar https://getsamplefiles.com/download/tar/sample-1.tar
+RUN curl -o /sample-2.tar https://getsamplefiles.com/download/tar/sample-1.tar
 
 
 RUN mkdir a
