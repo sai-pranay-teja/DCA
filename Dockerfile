@@ -15,7 +15,7 @@ FROM ubuntu
 # RUN curl -o /sample-2.tar https://getsamplefiles.com/download/tar/sample-1.tar
 
 
-RUN mkdir /a
+# RUN mkdir /a
 # RUN mkdir b
 # RUN mkdir c
 WORKDIR /a
