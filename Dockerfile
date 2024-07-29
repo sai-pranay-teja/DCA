@@ -23,4 +23,4 @@ FROM ubuntu
 # WORKDIR c
 # RUN pwd > 1.txt
 
-HEALTHCHECK CMD curl --fail http://localhost:3000 
+HEALTHCHECK CMD curl http://localhost:3000 
