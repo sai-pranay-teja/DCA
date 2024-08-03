@@ -1,4 +1,4 @@
-FROM rapidfort/nginx:1.27
+FROM rapidfort/nginx:latest
 # ENV NAME Pranay
 #  RUN apt-get update -y 
 # #     apt-get upgrade -y &&\
