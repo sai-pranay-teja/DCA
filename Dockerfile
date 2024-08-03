@@ -1,4 +1,4 @@
-FROM pranayroot/nginx:v1
+FROM rapidfort/nginx:v1
 # ENV NAME Pranay
 #  RUN apt-get update -y 
 # #     apt-get upgrade -y &&\
